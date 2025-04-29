@@ -10,7 +10,7 @@ const Layout = () => {
       <header className={styles.header}>
         <div className={styles.headerContainer}>
           <Link to="/" className={styles.headerTitleContainer}>
-            <h3 className={styles.headerTitle}>GPT + Enterprise data | Sample</h3>
+            <h3 className={styles.headerTitle}>Specter AI | Game Development Assistant</h3>
           </Link>
           <nav>
             <ul className={styles.headerNavList}>
@@ -32,7 +32,7 @@ const Layout = () => {
               </li>
               <li className={styles.headerNavLeftMargin}>
                 <a
-                  href="https://aka.ms/azureopenai/javascript"
+                  href="https://github.com/your-org/specter"
                   target={'_blank'}
                   title="Github repository link"
                   rel="noreferrer"
@@ -40,7 +40,7 @@ const Layout = () => {
                   <img
                     src={github}
                     alt="Github logo"
-                    aria-label="Azure OpenAI JavaScript Github repository link"
+                    aria-label="Specter Github repository link"
                     width="20px"
                     height="20px"
                     className={styles.githubLogo}
@@ -49,7 +49,7 @@ const Layout = () => {
               </li>
             </ul>
           </nav>
-          <h4 className={styles.headerRightText}>Azure OpenAI + AI Search</h4>
+          <h4 className={styles.headerRightText}>Specter Backend Services</h4>
         </div>
       </header>
 

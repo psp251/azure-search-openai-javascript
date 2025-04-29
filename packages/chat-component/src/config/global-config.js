@@ -8,12 +8,12 @@ const globalConfig = {
   // This are the chat bubbles that will be displayed in the chat
   CHAT_MESSAGES: [],
   // This are the labels for the chat button and input
-  CHAT_BUTTON_LABEL_TEXT: 'Ask Support',
+  CHAT_BUTTON_LABEL_TEXT: 'Ask Specter',
   CHAT_CANCEL_BUTTON_LABEL_TEXT: 'Cancel Generation',
   CHAT_VOICE_BUTTON_LABEL_TEXT: 'Voice input',
   CHAT_VOICE_REC_BUTTON_LABEL_TEXT: 'Listening to voice input',
-  CHAT_INPUT_PLACEHOLDER: 'Type your question, eg. "How to search and book rentals?"',
-  USER_IS_BOT: 'Support Assistant',
+  CHAT_INPUT_PLACEHOLDER: 'Type your question, eg. "How do I implement player progression?"',
+  USER_IS_BOT: 'Specter Assistant',
   RESET_BUTTON_LABEL_TEXT: 'X',
   RESET_BUTTON_TITLE_TEXT: 'Reset current question',
   RESET_CHAT_BUTTON_TITLE: 'Reset chat',
@@ -39,8 +39,8 @@ const globalConfig = {
   // Custom Branding details
   // All these should come from persistence config
   BRANDING_URL: '#',
-  BRANDING_LOGO_ALT: 'Brand Logo',
-  BRANDING_HEADLINE: 'Welcome to the Support Assistant of our Brand',
+  BRANDING_LOGO_ALT: 'Specter Logo',
+  BRANDING_HEADLINE: 'Welcome to Specter Support Assistant',
   SHOW_CHAT_HISTORY_LABEL: 'Show Chat History',
   HIDE_CHAT_HISTORY_LABEL: 'Hide Chat History',
   CHAT_MAX_COUNT_TAG: '{MAX_CHAT_HISTORY}',
@@ -49,17 +49,17 @@ const globalConfig = {
 
 const teaserListTexts = {
   TEASER_CTA_LABEL: 'Ask now',
-  HEADING_CHAT: 'Chat with our support team',
-  HEADING_ASK: 'Ask a question',
+  HEADING_CHAT: 'Chat with Specter Support',
+  HEADING_ASK: 'Ask about Specter',
   DEFAULT_PROMPTS: [
     {
-      description: 'How to search and book rentals?',
+      description: 'How do I implement player progression in my game?',
     },
     {
-      description: 'What is the refund policy?',
+      description: 'What APIs are available for leaderboards?',
     },
     {
-      description: 'How to contact a representative?',
+      description: 'How do I set up cross-platform play?',
     },
   ],
 };
